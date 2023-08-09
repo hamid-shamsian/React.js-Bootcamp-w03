@@ -1,0 +1,55 @@
+@font-face {
+   font-family: IranYekan;
+   src: url(IranYekan.ttf);
+}
+article {
+   margin: 50px auto;
+   width: 500px;
+   font-family: IranYekan;
+}
+main div {
+   margin: 50px 0;
+}
+header {
+   display: flex;
+   justify-content: space-around;
+   padding: 10px 0;
+   border-right: 0;
+   background-color: #c1dfeb55;
+   border-radius: 0 0 20px 20px;
+}
+main div {
+   display: flex;
+   justify-content: space-around;
+}
+button {
+   border: 0;
+   border-radius: 10px;
+   color: white;
+   font-size: 20px;
+   font-family: IranYekan;
+}
+button:nth-child(3) {
+   background-color: #85c3be;
+}
+button:nth-child(2) {
+   background-color: #016d77;
+}
+button:nth-child(1) {
+   background-color: #41999b;
+}
+div:first-child button {
+   padding: 10px 50px;
+}
+div:nth-child(2) button {
+   padding: 15px 50px;
+}
+div:last-child button {
+   padding: 20px 50px;
+}
+.topbar {
+   height: 50px;
+   border: 2px solid rgb(0, 89, 255);
+   border-radius: 20px 20px 0 0;
+   background-color: #c1dfeb55;
+}
